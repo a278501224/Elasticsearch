@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.es.demo</groupId>
+  <artifactId>esDemo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.elasticsearch.client</groupId>
+  		<artifactId>elasticsearch-rest-client</artifactId>
+  		<version>6.1.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.bbossgroups.plugins</groupId>
+  		<artifactId>bboss-elasticsearch-rest</artifactId>
+  		<version>5.0.5.3</version>
+  		<scope>compile</scope>
+  	</dependency>
+  	
+  	<dependency>
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-api</artifactId>
+  		<version>1.7.6</version>
+  		<scope>compile</scope>
+  	</dependency>
+  	<!--json  -->
+		<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>fastjson</artifactId>
+    <version>1.2.9</version>
+</dependency>
+  	
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.12</version>
+  		<scope>test</scope>
+  	</dependency>
+  </dependencies>
+</project>
